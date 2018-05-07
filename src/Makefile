@@ -55,7 +55,7 @@
 #
 # For testing in the current directory without installation, try make PREFIX= LIBDIRNAME='.'
 
-CC ?= gcc
+CC = gcc
 INSTALL ?= install
 
 PREFIX ?= /usr/local
